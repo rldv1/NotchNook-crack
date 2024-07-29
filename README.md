@@ -23,8 +23,11 @@ I managed to quickly find the exact location of key validation check, so just do
 
 # Your task is as follows:
 - Option 1. Use the Frida script from the file `script.js` just once.
-- Option 2. Patch the binary by changing bytes at offset `0xF3324` from `1F050071` to `1F010071` (you can use HexFiend on macOS or HxD on Windows).
+- Option 2. Patch the binary by changing bytes at offset `0x537324` from `1F050071` to `1F010071` (you can use HexFiend on macOS or HxD on Windows).
+- Option 3. Download patched app from Releases page
 
+# Ready? 
+### Now enter random data into the key and email entry form, and voila! 
 <img width="722" alt="image" src="https://github.com/user-attachments/assets/a5af246d-b218-442a-804d-9e7db68302e0">
 
 I hope this is helpful, and dont forget to disable auto-updates :3.
